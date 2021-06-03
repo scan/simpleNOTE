@@ -1,0 +1,6 @@
+[submodule "simpleNOTE-api"]
+	path = api
+	url = git@github.com:scan/simpleNOTE-api.git
+[submodule "api"]
+	path = api
+	url = git@github.com:scan/simpleNOTE-api.git
