@@ -1,0 +1,35 @@
+@startuml "data-model"
+
+skinparam backgroundColor transparent
+
+entity User {
+    * id
+    ---
+    * email
+    * encrypted_password
+    created_at
+    last_login
+}
+
+entity UserToken {
+    * token
+    ---
+    * user_agent
+    * created_at
+}
+
+entity Note {
+    * id
+    ---
+    * title
+    * url_key
+    body
+    * created_at
+    modified_at
+    deleted_at
+}
+
+User ||--o{ Note
+User ||--o{ UserToken
+
+@enduml
