@@ -1,2 +1,2 @@
-# simpleTODO
-A simple TODO full stack to explore best practices
+# simpleNOTE
+A simple notepad full stack to explore best practices
